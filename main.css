@@ -1,0 +1,23 @@
+.nav-link {
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+  }
+  
+  #main-doc {
+    margin-left: 25%;
+  }
+  
+  @media screen and (min-width: 450px) {
+      #navbar {
+      height: 100%;
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      width: 25%;
+      background-color: orange;
+    }
+  }
